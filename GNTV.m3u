@@ -255,14 +255,6 @@ https://o11.163189.xyz/stream/live/iqiyi/
 https://cdn.163189.xyz/163189/viu
 #EXTINF:-1 group-title="港台频道",ViuTVsix
 https://cdn10.163189.xyz/stream/163189/viu6/
-#EXTINF:-1 tvg-id="邵氏电影" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/dxdragon/myTV/main/logo/邵氏电影.png" group-title="港台频道",邵氏电影
-http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="邵氏动作" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/dxdragon/myTV/main/logo/邵氏动作.png" group-title="港台频道",邵氏动作
-http://feilong123.vip/409990236/tv.php?id=ssdz
-#EXTINF:-1 tvg-id="邵氏喜剧" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/dxdragon/myTV/main/logo/邵氏喜剧.png" group-title="港台频道",邵氏喜剧
-http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="邵氏武侠" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/dxdragon/myTV/main/logo/邵氏武侠.png" group-title="港台频道",邵氏武侠
-http://feilong123.vip/409990236/tv.php?id=sswx
 #EXTINF:-1 group-title="地方频道",钱江都市
 http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 #EXTINF:-1 group-title="地方频道",经济生活
