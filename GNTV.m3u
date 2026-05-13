@@ -239,6 +239,42 @@ https://o11.163189.xyz/stream/live/iqiyi/
 https://cdn.163189.xyz/163189/viu
 #EXTINF:-1 group-title="港台频道",ViuTVsix
 https://cdn10.163189.xyz/stream/163189/viu6/
+#EXTINF:-1 group-title="港台频道",邵氏动作
+http://feilong123.vip/409990236/tv.php?id=ssdz
+#EXTINF:-1 group-title="港台频道",邵氏电影
+http://feilong123.vip/409990236/tv.php?id=ssdy
+#EXTINF:-1 group-title="港台频道",邵氏武侠
+http://feilong123.vip/409990236/tv.php?id=sswx
+#EXTINF:-1 group-title="港台频道",邵氏喜剧
+http://feilong123.vip/409990236/tv.php?id=ssxj
+#EXTINF:-1 group-title="港台频道",华艺中文
+http://iptv.4666888.xyz/iptv2A.php?id=37
+#EXTINF:-1 group-title="港台频道",民视影剧
+http://iptv.4666888.xyz/iptv2A.php?id=53
+#EXTINF:-1 group-title="港台频道",民视综艺
+http://iptv.4666888.xyz/iptv2A.php?id=46
+#EXTINF:-1 group-title="港台频道",ROCK Action
+http://iptv.4666888.xyz/iptv2A.php?id=50
+#EXTINF:-1 group-title="港台频道",HBO喜剧
+http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",HBO
+http://23.237.104.106:8080/USA_HBO/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",CN卡通
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",LMN
+http://23.237.104.106:8080/USA_LMN/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",astro Football
+http://iptv.4666888.xyz/iptv2A.php?id=4
+#EXTINF:-1 group-title="港台频道",HBO精选
+http://23.237.104.106:8080/USA_HBO2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",Cinemax精选
+http://23.237.104.106:8080/USA_MOREMAX/mono.m3u8
+#EXTINF:-1 group-title="港台频道",Cinemax
+http://23.237.104.106:8080/USA_CINEMAX/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",HBO王牌
+http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="港台频道",astro欢喜台
+http://o11.163189.xyz/stream/live/hxt/
 #EXTINF:-1 group-title="地方频道",钱江都市
 http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 #EXTINF:-1 group-title="地方频道",经济生活
