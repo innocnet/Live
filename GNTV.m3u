@@ -154,7 +154,7 @@ https://o11.163189.xyz/stream/live/aec/
 #EXTINF:-1 group-title="港台频道",无线新闻
 http://cdn6.163189.xyz/163189/wxxw
 #EXTINF:-1 group-title="港台频道",非凡新闻
-http://iptv.4666888.xyz/iptv2A.php?id=44
+rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 group-title="港台频道",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 group-title="港台频道",NOW新闻
@@ -171,6 +171,20 @@ https://o11.163189.xyz/stream/tvb/fct/
 https://o11.163189.xyz/stream/tvb/mzt/
 #EXTINF:-1 group-title="港台频道",民视
 http://iptv.4666888.xyz/iptv2A.php?id=55
+#EXTINF:-1 group-title="港台频道",华视
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 group-title="港台频道",台视
+rtmp://f13h.mine.nu/sat/tv071
+#EXTINF:-1 group-title="港台频道",中视
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 group-title="港台频道",纬来育乐
+rtmp://f13h.mine.nu/sat/tv701
+#EXTINF:-1 group-title="港台频道",纬来体育
+rtmp://f13h.mine.nu/sat/tv721
+#EXTINF:-1 group-title="港台频道",纬来日本
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 group-title="港台频道",东森超视
+rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 group-title="港台频道",娱乐新闻
 http://iptv.4666888.xyz/iptv2A.php?id=36
 #EXTINF:-1 group-title="港台频道",香港面包
