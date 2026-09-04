@@ -1,5 +1,10 @@
 const cheerio = createCheerio()
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+const headers = {
+    'User-Agent': UA,
+    Referer: 'https://www.mayi520.org/',
+    Origin: 'https://www.mayi520.org',
+}
 
 const appConfig = {
     ver: 1,
@@ -23,7 +28,7 @@ async function getCards(ext) {
     let cards = []
 
     const url = `${appConfig.site}/vodshow/${id}--------${page}---.html`
-    const { data } = await $fetch.get(url, { headers: { 'User-Agent': UA } })
+    const { data } = await $fetch.get(url, { headers })
     const $ = cheerio.load(data)
 
     $('.stui-vodlist__box').each((_, e) => {
@@ -50,8 +55,8 @@ async function search(ext) {
 
     let cards = []
     const text = encodeURIComponent(ext.text)
-    const url = `${appConfig.site}/vodsearch/-------------.html?wd=${text}`
-    const { data } = await $fetch.get(url, { headers: { 'User-Agent': UA } })
+    const url = `${appConfig.site}/vodsearch/-------------.html?wd=${text}&submit=`
+    const { data } = await $fetch.get(url, { headers })
     const $ = cheerio.load(data)
 
     $('.stui-vodlist__media > li').each((_, e) => {
@@ -74,7 +79,7 @@ async function search(ext) {
 async function getTracks(ext) {
     ext = argsify(ext)
     const url = appConfig.site + ext.url
-    const { data } = await $fetch.get(url, { headers: { 'User-Agent': UA } })
+    const { data } = await $fetch.get(url, { headers })
     const $ = cheerio.load(data)
 
     let names = {}
@@ -102,7 +107,7 @@ async function getTracks(ext) {
 async function getPlayinfo(ext) {
     ext = argsify(ext)
     const url = appConfig.site + ext.url
-    const { data } = await $fetch.get(url, { headers: { 'User-Agent': UA } })
+    const { data } = await $fetch.get(url, { headers })
 
     const match = data.match(/var player_data\s*=\s*(\{.*?\})<\/script>/)
     if (!match) return jsonify({ urls: [] })
